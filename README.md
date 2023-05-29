@@ -1,2 +1,2 @@
-# Projetos em ADPVL
- Estudos de projetos do Protheus em ADPVL
+# Estudos em ADPVL
+ Estudo de projetos do ADPVL e SQL Protheus12
