@@ -1,3 +1,3 @@
 # Estudos em ADPVL
  Estudo de projetos do ADPVL e SQL Protheus12
-![protheus](https://github.com/gameiftech/Estudos-em-ADPVL/assets/126339810/003c6614-d40a-4a21-ab0b-15b59438431d)
+<img src="https://img-c.udemycdn.com/course/750x422/1449842_2c42_5.jpg" alt="Protheus12" width="400">
