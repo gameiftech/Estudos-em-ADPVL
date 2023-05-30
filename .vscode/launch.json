@@ -11,14 +11,5 @@
 			"isMultiSession": true,
 			"enableTableSync": true
 		}
-	],
-	"lastPrograms": [
-		{
-			"label": "u_olamundo"
-		},
-		{
-			"label": "u_variavel"
-		}
-	],
-	"lastProgramExecuted": "u_variavel"
+	]
 }
