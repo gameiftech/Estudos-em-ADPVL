@@ -27,6 +27,6 @@ user function operador ()
     nNum2 -= nNum1  //nNum2 = nNum2 - nNum1
     nNum1 *= nNum2  //nNum1 = nNum1 * nNum2
     nNum2 /= nNum1  //nNum2 = nNum2 / nNum1
-    nNum2 %= nNum1  //nNum2 = nNum2 % nNum1
+   // nNum2 %= nNum1  //nNum2 = nNum2 % nNum1
 
 return

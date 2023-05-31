@@ -6,8 +6,8 @@ user function variavel()
 	Local lLogic := .T.
 	Local cCarac := "String"
 	Local dData := date ()
-	Local aArray := {"João","Maria", "José"}
-	Local dBloco := {|| nValor :=2, MsgAlert("O número é: "+ cValToChar(nValor))}
+	Local aArray := {"Totvs","Protheus", "Games"}
+	//Local dBloco := {|| nValor :=2, MsgAlert("O número é: "+ cValToChar(nValor))}
 
 	Alert (nNum)
 	Alert (lLogic)

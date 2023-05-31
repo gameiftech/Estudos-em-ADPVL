@@ -21,7 +21,28 @@
 		},
 		{
 			"label": "u_operador"
+		},
+		{
+			"label": "u_estrutur"
+		},
+		{
+			"label": "u_docase"
+		},
+		{
+			"label": "u_estrrep"
+		},
+		{
+			"label": "u_vetor"
+		},
+		{
+			"label": "u_avetor"
+		},
+		{
+			"label": "u_avetor2"
+		},
+		{
+			"label": "u_bloco"
 		}
 	],
-	"lastProgramExecuted": "u_operador"
+	"lastProgramExecuted": "u_bloco"
 }
