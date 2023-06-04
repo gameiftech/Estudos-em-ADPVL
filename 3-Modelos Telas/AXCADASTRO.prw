@@ -1,7 +1,7 @@
 #include 'Totvs.ch'
 #include 'Protheus.ch'
 
-user function MODELO1()
+user function AXCADASTRO()
 
     LOCAL cAlias := "SB1"
     LOCAL cTitulo := "Cadastro - AXCadastro"
