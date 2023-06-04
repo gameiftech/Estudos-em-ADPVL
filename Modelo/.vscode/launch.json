@@ -14,39 +14,10 @@
 	],
 	"lastPrograms": [
 		{
-			"label": "u_olamundo"
-		},
-		{
-			"label": "u_escopo1"
-		},
-		{
-			"label": "u_operador"
-		},
-		{
-			"label": "u_estrutur"
-		},
-		{
-			"label": "u_docase"
-		},
-		{
-			"label": "u_estrrep"
-		},
-		{
-			"label": "u_vetor"
-		},
-		{
-			"label": "u_avetor"
-		},
-		{
-			"label": "u_avetor2"
-		},
-		{
-			"label": "u_bloco"
-		},
-		{
 			"args": [],
-			"label": "u_avetor"
+			"label": "u_modelo1"
 		}
 	],
-	"lastProgramExecuted": "u_estrutur"
+	"lastProgramExecuted": "u_modelo1",
+	"lastProgramArguments": []
 }
