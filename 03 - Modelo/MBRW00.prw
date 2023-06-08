@@ -17,6 +17,5 @@ user function MBRW00()
 	dbSetOrder(1)
 	mBrowse(,,,,cAlias)
 	//mBrowse(6,1,22,75,cAlias)
-	
-	
+
 return Nil

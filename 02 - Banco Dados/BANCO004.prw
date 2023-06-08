@@ -14,9 +14,9 @@ user function BANCO004()
 	
 		MsgInfo("A descrição do produto será alterada!", "Atenção")
 		
-	If SB1->(DbSeek(FWxFilial('SB1') + '000002'))
+	If SB1->(DbSeek(FWxFilial('SB1') + '00003'))
 		RecLock('SB1', .F.) //Trava registro para alteração
-	Replace B1_DESC With "MONITOR DELL 42 PL"
+	Replace B1_DESC With "MONITOR LG 32 POLEGADAS"
 	
 		SB1->(MsUnlock())
 	EndIf

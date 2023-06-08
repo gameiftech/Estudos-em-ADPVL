@@ -9,15 +9,15 @@ user function BANCO005()
 	
 	// Adionando dados no vetor para teste de inclusão na tabela SB1
 	aDados := {;
-			   	{"B1_COD",	"111111",				Nil},;
-			   	{"B1_DESC",	"PRODUTO TESTE",		Nil},;
-			   	{"B1_TIPO",	"GG", 					Nil},;
-			   	{"B1_UM", "PC", 					Nil},;
-			   	{"B1_LOCPAD", 	"01", 				Nil},;
-			   	{"B1_PICM", 	0, 					Nil},;
-			   	{"B1_IPI", 0, 						Nil},;
-			   	{"B1_CONTRAT", "N", 				Nil},;
-			   	{"B1_LOCALIZ", "N", 				Nil};
+			   	{"B1_COD",	"00006",				 Nil},;
+			   	{"B1_DESC",	"CONTROLE XBOX 360",     Nil},;
+			   	{"B1_TIPO",	"PA", 					 Nil},;
+			   	{"B1_UM", "PC", 					 Nil},;
+			   	{"B1_LOCPAD", 	"04", 				 Nil},;
+			   	{"B1_PICM", 	0, 					 Nil},;
+			   	{"B1_IPI", 0, 						 Nil},;
+			   	{"B1_CONTRAT", "N", 				 Nil},;
+			   	{"B1_LOCALIZ", "S", 				 Nil};
 			   }
 	
 	//inicio do controle de transação
@@ -32,11 +32,10 @@ user function BANCO005()
 			
 			DisarmTransaction()
 		Else
-			MsgInfo("Operação finaliada!", "Aviso")
+			MsgInfo("Operação finalizada!", "Aviso")
 		EndIf
 		End Transaction
 		
 		RestArea(aArea)
-	
 	
 return

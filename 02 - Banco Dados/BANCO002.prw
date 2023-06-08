@@ -11,7 +11,7 @@ user function BANCO002()
 	
 	cMsg := Posicione(	'SB1',;
 						1,;
-						FWXfilial('SB1')+ '000002',;
+						FWXfilial('SB1')+ '00002',;
 						'B1_DESC')
 						
 	Alert("Descrição Produto: " +cMsg, "AVISO")

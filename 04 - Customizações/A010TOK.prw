@@ -15,5 +15,4 @@ user function A010TOK()
 			
 		EndIf
 	
-	
 return(lExecuta)

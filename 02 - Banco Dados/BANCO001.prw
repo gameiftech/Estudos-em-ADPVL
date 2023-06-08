@@ -9,7 +9,7 @@ user function BANCO001()
 	SB1->(DbGoTop())
 	
 	// posiciona o produto de código 000002
-	If SB1->(dbSeek(FWXFilial("SB1")+ "000002"))
+	If SB1->(dbSeek(FWXFilial("SB1")+ "00001"))
 	 Alert(SB1->B1_DESC)
 	
 	EndIf
