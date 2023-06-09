@@ -1,5 +1,5 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 
 user function MODELO1()
 	Local cAlias := "SB1"

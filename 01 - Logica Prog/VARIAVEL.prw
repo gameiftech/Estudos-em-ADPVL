@@ -1,5 +1,5 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 
 /**
 	TIPO DE DADOS

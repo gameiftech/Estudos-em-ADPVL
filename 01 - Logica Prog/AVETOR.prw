@@ -1,5 +1,5 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 
 user function AVETOR()
 	// Arrays: SÃO COLEÇÕES DE VALORES, SEMELHANTES A UMA LISTA

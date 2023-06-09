@@ -1,5 +1,5 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 
 user function BANCO001()
 	Local aArea := SB1->(GetArea())

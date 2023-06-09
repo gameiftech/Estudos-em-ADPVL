@@ -1,5 +1,5 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 #include 'TopConn.ch'
 
 user function BANCO003()

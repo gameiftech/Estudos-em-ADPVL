@@ -1,9 +1,9 @@
 #include 'protheus.ch'
-#include 'parmtype.ch'
+#include 'totvs.ch'
 
 user function DoCase()
 	
-	Local cData := "15/12/2018"
+	Local cData := "25/12/2017"
 	
 	Do Case
 	
