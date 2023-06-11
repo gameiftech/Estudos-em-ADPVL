@@ -1,14 +1,15 @@
 #Include 'Protheus.ch'
+#include 'totvs.ch'
 
 User Function RLHTML02()
 
-If MsgYesNo("Deseja imprimir o relatório HTM?")
+If MsgYesNo("Deseja imprimir o relatório HTML?")
 		
 	Processa({||MntQry() 	},,"Processando...")
-	MsAguarde( { || GeraHTML() },,"O arquivo HTM está sendo Gerado... ")
+	MsAguarde( { || GeraHTML() },,"O arquivo HTML está sendo Gerado... ")
 	
 	Else
-		Alert("<b>Cancelado pero usuário.</b>")
+		Alert("<b>Cancelado pelo usuário.</b>")
 		Return Nil
 	EndIf
 	
@@ -33,7 +34,7 @@ Return Nil
 Static Function GeraHTML()
 
 	Local cHtml := "" 
-	Local cFile := "C:\teste_html\Index.htm"
+	Local cFile := "C:\Temp\Index.html"
 	Local dData := Date() //armazenando a data atual
 	
 	nH := fCreate(cFile)
@@ -122,7 +123,7 @@ Static Function GeraHTML()
    	
    	//Abrindo o arquivo 
    	
-   	nRet := ShellExecute("open",cFile,"","C:\teste_html\Index.htm",1)
+   	nRet := ShellExecute("open",cFile,"","C:\Temp\Index.html",1)
    
 Return nRet
 

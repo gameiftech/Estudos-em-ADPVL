@@ -34,7 +34,7 @@ Return Nil
 Static Function GeraHTML()
 
 	Local cHtml := "" 
-	Local cFile := "C:\teste_html\Index.htm"
+	Local cFile := "C:\Temp\Index.html"
 	Local dData := Date() //armazenando a data atual
 	
 	nH := fCreate(cFile)
@@ -99,7 +99,7 @@ Static Function GeraHTML()
    	
    	//Abrindo o arquivo 
    	
-   	nRet := ShellExecute("open",cFile,"","C:\teste_html\Index.htm",1)
+   	nRet := ShellExecute("open",cFile,"","C:\Temp\Index.html",1)
    
 Return nRet
 
